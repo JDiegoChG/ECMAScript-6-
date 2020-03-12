@@ -67,13 +67,19 @@ let education = ['David', ...team1, ...team2 ]
 
 console.log(education);
 
-/*Let y Var antes del es6*/
-{
+/*Let y Var es6*/
+
     var globalVar = "Global Var";
 }
 {
-    let globalLet = "Global let"
-    console.log(globalVar);
+    let globalLet = "Global let";
+    console.log(globalLet);
 }
 
 console.log(globalVar);
+
+/*Const es6*/
+
+var a = 'b';
+a = 'a';
+console.log(a);
